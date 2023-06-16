@@ -1,0 +1,214 @@
+.container ul{
+    background-color: black;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+@media (max-width:800px){
+    .container-imagem{
+        font-size: 10px;
+    }
+}
+body{
+    background-color: black;
+}
+@media (max-width:1500px){
+    .dinheiro{
+        width: 400px;
+        height: 400px;
+    }
+}
+.dinheiro{
+    width: 30%;
+    height: 50%;
+    object-fit: cover;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px rgba(255, 255, 255, 0.12) 0.12 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+.hum{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    
+
+}
+@media (max-width:800px){
+    .hum{
+        font-size: 18px;
+    }
+}
+.hdois{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Wix Madefor Display', sans-serif;
+
+}
+.hum h1{
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-in;
+    padding: 5%;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.hum span{
+    color: darkgrey;
+    transition: all 1s ease-in;
+}
+
+.hum h1:hover{
+ font-size: 60px;
+ transition: all 1s ease-in;
+}
+.hum span:hover{
+    font-size: 60px;
+    transition: a1l 1s ease-i1;
+}
+.investir{
+    display: flex;
+    /* flex-direction: row; */
+}
+.investir h1{
+    background-image: linear-gradient(to right, #ffffff, #0077ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 600%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+@media (max-width:800px){
+    .investir{
+        font-size: 5px;
+    }
+    .dinheiro{
+        width: 600px;
+        height: 340px;
+        object-fit: cover;
+    }
+}
+.hdois h1{
+    background-image: linear-gradient(to right, #ffffff, #0077ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all 1s ease-in;
+    padding: 10%;
+}
+.hdois h1 :hover{
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-in;
+}
+.hdois span{
+    color: rgb(153, 153, 153);
+    transition: all 1s ease-in;
+}
+.hdois span:hover{
+    font-size: 60px;
+    transition: a1l 1s ease-i1;
+}
+@media (max-width:800px){
+   .hdois{
+    font-size: 10px;
+   }
+}
+
+.container-imagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img{
+    object-fit: cover;
+}
+
+.bloco-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.texto h1{
+    background-image: linear-gradient(to right, #ffffff, #0077ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 680%;
+}
+.assunto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px){
+    .assunto{
+        font-size: 8px;
+    }
+    .imagemAssunto{
+        width: 300px;
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+.assunto h1{
+    background-image: linear-gradient(to right, #ffffff, #0077ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 300%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.fundoBranco{
+    width: 100%;
+    height: 1000px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:800px){
+    .fundoBranco{
+        font-size: 8px;
+    }
+    .imgCartao{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 40px;
+    }
+}
+
+.fundoBranco h1{
+    background-image: linear-gradient(to right, #000000, #0077ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.quadradoDireito{
+    height: 100%;
+    width: 20%;
+    background-color: aliceblue;
+}
+.quadradoEsquerdo{
+    height: 100%;
+    width: 20%;
+    background-color: aliceblue;
+}

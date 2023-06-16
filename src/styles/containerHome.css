@@ -1,0 +1,223 @@
+.back-body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    height: 1040px;
+    display: flex;
+    align-items: stretch;
+}
+
+.blocoEsquerdo {
+    width: 500px;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 28px 10px rgba(255, 255, 255, 0.41);
+    -webkit-box-shadow: 0px 0px 28px 10px rgba(255, 255, 255, 0.41);
+    -moz-box-shadow: 0px 0px 28px 10px rgba(255, 255, 255, 0.41);
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+.blocoEsquerdo .perfil {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.espaco {
+    height: 120px;
+    background-color: transparent;
+
+}
+.saldo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.perfil button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nome {
+    margin-left: 20px;
+}
+
+.transacoes h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+    font-size: 20px;
+}
+.transacoes a{
+    color: black;
+}
+.transacoes a :hover{
+    color: rgb(8, 107, 201);
+}
+
+.extrato h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+    font-size: 20px;
+}
+
+.iconPerfil h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+    font-size: 20px;
+}
+
+.iconArrom {
+    margin-right: 20px;
+}
+
+.imagemEfect img {
+
+    animation: imagemEfect 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-top: 30%;
+    margin-left: 5%;
+    object-fit: cover;
+}
+.tabCredito{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fatura{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.fatura h1{
+    margin-left: 10px;
+    color: black
+}
+.cartaoDeCredito{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 118px 0px rgba(0,0,0,0.75);-webkit-box-shadow: 10px 10px 118px 0px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 118px 0px rgba(0,0,0,0.75);
+}
+.cartaoDeCredito .card{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartaoDeCredito h1{
+    font-size: 15px;
+}
+.CartaoDeDebito{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 118px 0px rgba(0,0,0,0.75);-webkit-box-shadow: 10px 10px 118px 0px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 118px 0px rgba(0,0,0,0.75);
+}
+.cartaoDebito .card{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartaoDebito h1{
+    font-size: 15px;
+}
+.containerHome{
+    margin-top: 99px;
+    height: 690px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+}
+.imgTexto{
+    display: flex;
+    align-items: center;
+
+}
+.imgTexto img{  
+    height: 200px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.novidades{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.sobreNos{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.novidades h1{
+    margin-left: 6%;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #313131, rgb(128, 128, 128));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.sobreNos h1{
+    margin-left: 50px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #313131, rgb(128, 128, 128));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.containerHome .texto{
+    width: 55%;
+    background-image: linear-gradient(to right, #313131, rgb(128, 128, 128));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+@media (max-width:2182px){
+    .back-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerHome{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgTexto {
+        display: flex;
+
+    }
+    /* .imagemLogin{
+    display: none;
+    } */
+}

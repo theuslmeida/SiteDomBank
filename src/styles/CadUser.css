@@ -1,0 +1,92 @@
+.login{
+    width: 300px;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 0%;
+    display: flex;
+    box-shadow: -1px 1px 5px 8px rgba(255,255,255,0.42);
+    -webkit-box-shadow: -1px 1px 5px 8px rgba(255,255,255,0.42);
+    -moz-box-shadow: -1px 1px 5px 8px rgba(255,255,255,0.42);
+}
+
+
+.container{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+ 
+}
+.nome input{
+    border-color: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent; 
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.email input{
+    border-color: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent; 
+}
+.senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.senha input{
+    border-color: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent; 
+}
+.login button{
+    border-color: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.oi{
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.h1Registro{
+    background-image: linear-gradient(to right, #ffffff, #0077ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 600%;
+    padding: 4%;
+}
+.container img{
+    margin-left: 900px;
+}
+.forms{
+    margin-left: 10%;
+}
